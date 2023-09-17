@@ -1,0 +1,271 @@
+/* -------------------------- global ------------------ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  direction: rtl;
+}
+
+body {
+  background: #ffffff;
+  color: #4d5868;
+  font-size: 14px;
+  font-family: Vazirmatn, sans-serif;
+  font-weight: 400;
+}
+
+a {
+  color: #303740;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+/*------------- Education Grid Style ----------------*/
+.section {
+  background: #fbf5f4;
+  padding: 80px 80px;
+  position: relative;
+}
+
+.sec-heading h2 {
+  font-size: 20px;
+}
+
+.sec-heading p {
+  line-height: 1.2;
+}
+
+.theme-cl {
+  color: #da0b4e;
+}
+
+.section .education_block_list_layout {
+  position: relative;
+  width: 100%;
+  border: 1px solid #e8ebf1;
+}
+
+.section .education_block_list_layout .education_block_thumb {
+  position: relative;
+  width: 200px;
+  height: 180px;
+}
+
+.section .education_block_list_layout .education_block_thumb .img-fluid {
+  max-width: 100%;
+  height: 100%;
+}
+
+.section .education_block_list_layout .list_layout_ecucation_caption {
+  display: block;
+  width: auto;
+}
+
+.section .education_block_list_layout .education_block_body {
+  padding: 0 20px;
+}
+
+.section .education_block_list_layout .education_block_body .bl-title {
+  font-size: 17px;
+}
+
+.section .education_block_list_layout .education_block_body .edu-teacher {
+  display: block;
+  font-size: 14px;
+}
+
+.section
+  .education_block_list_layout
+  .education_block_body
+  .edu-teacher
+  strong {
+  font-weight: bold;
+}
+
+.section .education_block_list_layout .education_block_body .lesson_info {
+  display: block;
+}
+
+.section .education_block_list_layout .education_block_body .lesson_info ul li {
+  display: inline-flex;
+}
+.section
+  .education_block_list_layout
+  .education_block_body
+  .lesson_info
+  ul
+  li:first-child {
+  color: #da0b4e;
+}
+
+.section
+  .education_block_list_layout
+  .education_block_body
+  .lesson_info
+  ul
+  li
+  i {
+  margin-left: 10px;
+  color: #da0b4e;
+}
+
+.section .education_block_list_layout .education_block_footer .edu-price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #203675;
+  padding: 5px 10px;
+}
+
+.section .education_block_list_layout .education_block_footer .edu-info {
+  width: 30px;
+  height: 30px;
+  background: #da0b4e;
+}
+
+.section .education_block_list_layout .education_block_footer .edu-info .fa {
+  color: #fff;
+  display: block;
+}
+
+/* ----------------------- section 2 -------------------------- */
+
+section {
+  padding: 30px 0;
+  position: relative;
+}
+
+.edu_cat_2 {
+  width: 100%;
+  /* margin-bottom: 25px; */
+  /* border-radius: 0.4rem; */
+  background: #f4f5f7;
+  /* padding: 1.5rem 1rem; */
+  /* display: flex; */
+  /* align-items: center; */
+  cursor: pointer;
+}
+
+.edu_cat_icons {
+  width: 80px;
+  height: 80px;
+  /* border-radius: 50%; */
+  background: #ffffff;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.edu_cat_2.cat-1 {
+  background: rgba(0, 173, 182, 0.1);
+}
+
+.edu_cat_data .video i {
+  /* padding-right: 15px; */
+  line-height: 1.2cm;
+}
+.edu_cat_icons img {
+  max-width: 40px;
+}
+
+.edu_cat_data h4 {
+  font-size: 15px;
+  margin-bottom: 4px;
+}
+
+.edu_cat_2.cat-1 h4 > a {
+  color: #00adb6;
+}
+
+.edu_cat_data .video i {
+  margin-left: 4px;
+}
+
+.edu_cat_2.cat-2 h4 > a {
+  color: #9ade45;
+}
+
+/* article ===================== */
+
+.article-title h2 {
+  margin-bottom: 30px;
+}
+
+.article-grid-style {
+  position: relative;
+  width: 100%;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.075);
+}
+.article-grid-style a:hover {
+  opacity: 0.5;
+}
+.article-grid-thumb .art-img {
+  max-width: 100%;
+  display: block;
+}
+.article-grid-caption h4 {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+}
+.article-grid-author {
+  width: 100%;
+}
+.article-grid-author .art-img-author {
+  width: 40px;
+  height: 40px;
+  max-width: 100%;
+}
+.article-grid-author h4 {
+  font-size: 14px;
+  font-weight: 500px;
+  color: #7182a7;
+  padding: 15px;
+}
+
+/* end article ======================= */
+
+/*------------- footer Style ----------------*/
+.footer {
+  padding: 50px 0;
+}
+
+.footer-widget {
+  padding: 0px 0 30px;
+}
+
+.footer-widget .footer-add p,
+.footer-widget .footer-add a {
+  color: #626a70;
+}
+h4.widget-title {
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+img.img-footer {
+  max-width: 150px;
+  margin-bottom: 2rem;
+}
+.footer-add {
+  color: #858b9f;
+  font-size: 13px;
+}
+.footer-add p {
+  margin: 0 0 10px;
+  line-height: 1.8;
+}
+
+.footer-widget ul li a {
+  color: #626a70;
+  line-height: 2;
+}
+
+.footer-widget ul li a:hover,
+.footer-widget .footer-add a:hover {
+  color: #da0b4e;
+}
