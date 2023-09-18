@@ -20,16 +20,10 @@ ul li {
   right: 10px;
   top: 10px;
   z-index: 9998;
-  /* border: 1px solid red; */
-  /* background: none; */
   font-size: 28px;
-  /* transition: all 0.4s; */
-  /* outline: none !important; */
-  /* line-height: 0; */
   cursor: pointer;
-  /* border-radius: 50px; */
-  /* padding: 5px; */
 }
+
 #header {
   position: fixed;
   top: 0;
