@@ -1,0 +1,248 @@
+html {
+  direction: ltr;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #272829;
+}
+A {
+  text-decoration: none;
+  color: #000;
+}
+ul li {
+  list-style-type: none;
+}
+
+/* ======================= header nav =========================== */
+.bar-icon {
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  z-index: 9998;
+  /* border: 1px solid red; */
+  /* background: none; */
+  font-size: 28px;
+  /* transition: all 0.4s; */
+  /* outline: none !important; */
+  /* line-height: 0; */
+  cursor: pointer;
+  /* border-radius: 50px; */
+  /* padding: 5px; */
+}
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1000;
+  transition: 0.5s;
+  padding-top: 200px;
+}
+.nav-menu a {
+  /* display: flex; */
+  /* align-items: center; */
+  color: #45505b;
+  padding: 10px 18px;
+  /* margin-bottom: 8px; */
+  font-size: 15px;
+  /* border-radius: 50px; */
+  background: #f2f3f5;
+  height: 56px;
+  width: 100%;
+  overflow: hidden;
+  transition: 0.7s;
+}
+.nav-menu a span {
+  padding: 0 5px 0 10px;
+  display: none;
+}
+.nav-menu .nav-item:hover {
+  width: 100%;
+  color: #fff;
+}
+.nav-menu .nav-item:hover,
+.nav-menu .active {
+  color: #fff;
+  background: #0563bb;
+}
+.nav-menu a i {
+  font-size: 20px;
+}
+.nav-menu .nav-item:hover span {
+  display: block;
+}
+
+/* ====================== section hero ========================= */
+
+section {
+  padding: 60px 0;
+}
+#hero {
+  width: 100%;
+  height: 100vh;
+  background: url(/assets/img/allec-gomes-sfJkr_ADkUc-unsplash.jpg) center
+    center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#hero h1 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #45505b;
+}
+
+#hero p {
+  color: #45505b;
+  font-size: 26px;
+}
+.social-media a {
+  font-size: 24px;
+  display: inline-block;
+  color: #45505b;
+  transition: 0.3s;
+}
+.social-media a:hover i {
+  color: #000;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+/* ======================== about ==================== */
+.section-title h2:before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+.section-title h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #0563bb;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+.section-title h2 {
+  font-size: 32px;
+  color: #45505b;
+}
+
+.about h3 {
+  font-weight: 700;
+  font-size: 26px;
+  color: #728394;
+}
+.about ul li > i {
+  font-size: 16px;
+  color: #0563bb;
+}
+
+/* ===================== sample ======================= */
+.sample-card {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.sample-card img {
+  height: 350px;
+}
+
+/* ========================= contact =================== */
+
+.contact .contact-right-title h4 {
+  margin-bottom: 33px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  color: #094174;
+}
+
+.contact .contact-right-title p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+}
+
+.contact-number-icon {
+  width: 80px;
+  height: 80px;
+  line-height: 90px;
+  box-shadow: 0px 8px 20px rgba(72, 72, 72, 0.1);
+  font-size: 32px;
+  color: #094174;
+  transition: 0.3s;
+}
+.contact-number ul li h6 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 29px;
+  color: #242c31;
+}
+
+.contact-form-container {
+  padding: 20px 40px;
+  border: 1px solid #eeeeee;
+}
+
+.contact-form-container form input {
+  border-bottom: 1px solid #eeeeee;
+  border-top: hidden;
+  border-right: hidden;
+  border-left: hidden;
+  padding: 20px 0;
+  outline: none;
+  width: 45%;
+  margin-right: 36px;
+}
+.contact-form-container .subject {
+  width: 100%;
+}
+.contact-form-container textarea {
+  width: 100%;
+  height: 120px !important;
+  outline: none;
+}
+.submit {
+  letter-spacing: 0.05em;
+}
+
+/* ========================== media query =================== */
+
+@media screen and (min-width: 992px) {
+  .nav-menu a {
+    width: 56px;
+  }
+  #main {
+    padding-left: 100px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #header {
+    display: none;
+  }
+  #hero {
+    height: 50vh;
+  }
+  #hero h1 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  #hero p {
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+@media screen and (max-width: 767px) {
+  #hero p {
+    display: none;
+  }
+}
